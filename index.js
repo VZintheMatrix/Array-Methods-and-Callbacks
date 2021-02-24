@@ -56,17 +56,16 @@ hint - you should be looking at the stage key inside of the objects
 
 
 function getFinals(data){
-    const finalTeams = data.filter(function(item){
-    if (item['Stage'] === 'Final'){
-        return item['Home team Name'] && item['Away Team Name'];
-    }
-    }
+//     return data.filter(function(item){
+//     if (item['Stage'] === 'Final'){
+//         return item['Home team Name'] && item['Away Team Name'];
+//     }
+//     }
     
 
-    /* code here */
+//     /* code here */
 }
 
-console.log(getFinals(fifaData))
 
 /* 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 Task 3: 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀
 Use the higher-order function called getYears to do the following: 
@@ -76,7 +75,9 @@ Use the higher-order function called getYears to do the following:
 
 
 
-function getYears(/* code here */) {
+function getYears() {
+
+
     /* code here */
 }
 
